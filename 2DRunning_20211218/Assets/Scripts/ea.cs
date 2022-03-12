@@ -1,18 +1,29 @@
-using System.Collections;
-using System.Collections.Generic;
+
 using UnityEngine;
 
-public class NewBehaviourScript : MonoBehaviour
-{
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+public class player : MonoBehaviour
 
-    // Update is called once per frame
-    void Update()
+{
+    [Header("­µ®Ä")]
+    public AudioClip soundJump;
+    public AudioClip soundlide;
+
+    private AudioSource aud;
+
+
+    private void Start()
     {
-        
+        aud = GetComponent<AudioSource>();
+    }
+    private void    Jump()
+    {
+        aud.PlayOneShot(soundJump);
+    }
+    private void    Sile()
+    {
+        if(Input.GetKey(keySlide))
+        {
+
+        }
     }
 }

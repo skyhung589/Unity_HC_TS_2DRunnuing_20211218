@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 6942486413648453567}
   - component: {fileID: 6942486413648453566}
   - component: {fileID: 7698238571492205889}
+  - component: {fileID: -1021949852368202626}
   m_Layer: 0
   m_Name: Apple_0
   m_TagString: "\u9053\u5177"
@@ -119,3 +120,16 @@ CircleCollider2D:
   m_Offset: {x: -0.0011393039, y: 0.010622746}
   serializedVersion: 2
   m_Radius: 0.073411226
+--- !u!114 &-1021949852368202626
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6942486413648453565}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6449d60601544fc4593c733e16b03c9f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Score: 0
